@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#Ceci sera notre script de Lancement des opérations de générations de SVG
+
+make clean
+make
+echo 
+echo Opération de génération du SVG:
+echo
+./logo < logotest
